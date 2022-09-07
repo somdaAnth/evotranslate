@@ -87,15 +87,8 @@ header .cover .right button:hover i {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 10px;
     font-size: 20px;
+   
     letter-spacing: 1px;
-}
-* .somda{
-    background:linear-gradient(to right,rgba(14, 151, 21, 0.914), rgb(77, 255, 0)) ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-family: sans-serif;
-    
 }
 * .submit {
     min-width: 100px;
@@ -182,4 +175,5 @@ header .cover .right button:hover i {
 }
 *.right a:hover i {
     font-size: 25px;
+    
 }
