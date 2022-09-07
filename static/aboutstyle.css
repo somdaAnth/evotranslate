@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right,#160A25,#17062c,#4f0909,#4a48bce1);
+}
+* h1 {
+    color: rgb(216, 226, 235);
+    font-family: monospace;
+    margin: 20px auto;
+    width: fit-content;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+#ii {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 40px;
+}
+p {
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    margin: 10px auto;
+    color: rgb(215, 195, 195);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mail {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mailzone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mailzone span {
+    font-size: 18px;
+    color: rgb(215, 195, 195);
+    letter-spacing: 1px;
+    margin: 0 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVO translate</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="cover">
+            <div class="logo">
+                <img src="/static/EVO-PL_1.PNG" alt="">
+            <h3>Translator</h3>
+            </div>
+            <div class="right">
+                <a href="/"><i class="fa-brands fa-square-github"></i></a>
+                <a href="/about"><i class="fa-solid fa-circle-info"></i></a>
+        <button class="change"><a  href="/">ENG <i class="fa-sharp fa-solid fa-arrow-right-arrow-left"></i>TH</a></button>
+            </div>
+        </div>
+    </header>
+    <form action="/THtoENG" method="POST" id="formy">
+        <img src="/static/evo i7i9i5-family-badges-centered.png" alt="" class="family">
+        <input type="text" name="txteng" class="input" placeholder="พิมพ์ข้อความอังกฤษที่ลืมเปลี่ยนภาษาได้เลย!" id="input"><br>
+       
+        <div class="btnzone">
+            <button type="submit"  value="submit" class="submit"><img src="/static/EVO-PL_1.PNG" alt="" class="evocolor">Translate</button>
+        
+        </div>
+        
+
+        <div class="result">
+            <img class="color" src="/static/colored.PNG" alt="">
+            <span>ผลลัพธ์จะปรากฏที่นี่</span>
+            <button class="clonebtn" id="button"><i  class="fa-solid fa-clone"></i></button>
+            </div>
+            <p class="output" id="out">{{txteng}}</p>
+    </form>
+    
+   
+  <script src="/static/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+* form {
+    width: 100%;
+}
+* .input {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    outline: none;
+    padding: 0 10px;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right,#160A25,#17062c,#4f0909,#4a48bce1);
+}
+header {
+    height: 70px;
+    max-width: 100%;
+}
+header .cover {
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+* .logo {
+    display: flex;
+    align-items: center;  
+}
+* .btnzone {
+    margin: 0 auto;
+    width: fit-content;
+}
+header .cover .right i {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: .4s;
+}
+header .cover .right {
+    display: flex;
+    align-items: center;
+}
+header .cover .right button {
+    background: none;
+    border: rgb(236, 226, 226) solid 3px;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+header .cover .right button:hover {
+    border:rgb(36, 170, 219) 3px solid ;
+    cursor: pointer;
+}
+header .cover .right button:hover a {
+    color: rgb(36, 170, 219);
+    
+}
+header .cover .right button:hover i {
+    color: rgb(36, 170, 219);
+    
+}
+* a {
+    text-decoration: none;
+    color: white;
+}
+* .logo img {
+    width: 120px;
+}
+* .logo h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+* .somda{
+    background:linear-gradient(to right,rgba(14, 151, 21, 0.914), rgb(77, 255, 0)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+* .submit {
+    min-width: 100px;
+    height: 40px;
+    border: rgb(190, 189, 189) solid 1px;
+    background-color: rgb(36, 170, 219);
+    color: aliceblue;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* .submit:hover {
+    background-color: rgb(33, 139, 178);
+}
+
+* .evocolor {
+    width: 50px;
+}
+* .family {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+* .explain {
+    margin: 0 auto ;
+    width: fit-content;
+    color: white;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* .result {
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    width: fit-content;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+* .result .clonebtn  {
+    background-color: rgb(36, 170, 219);
+    border: 2px white solid;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+* .result .clonebtn i {
+    color: white;
+}
+* .result span  {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0 20px;
+    opacity: 80%;
+}
+* .color {
+    width: 50px;
+}
+* .output {
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    display: block;
+    color: white;
+    margin-top:20px ;
+    max-width: 80%;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    
+}
+* .clonebtn:active {
+    background-color: black;
+}
+*.right a:hover i {
+    font-size: 25px;
+}
