@@ -240,4 +240,24 @@ header .cover .right button:hover i {
         display: block;
         margin: 0 auto;
     }
+    body {
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        background: linear-gradient(to bottom right,#160A25,#17062c,#4f0909,#4a48bce1);
+    }
+    * .logo {
+        width: fit-content;
+    }
+    * .logo img {
+        width: 20%;
+    }
+    * .logo h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 10px;
+        font-size: 14px;
+       
+        letter-spacing: 1px;
+    }
 }
