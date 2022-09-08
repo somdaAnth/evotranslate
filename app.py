@@ -3,7 +3,7 @@ from flask import Flask,render_template,request
 
 app = Flask(__name__,template_folder='template')
 
-@app.route("/evo",methods=['POST'])
+@app.route('/',methods=['GET','POST'])
 
 
 def caculate():
@@ -110,7 +110,7 @@ def caculate():
         
     return render_template('index.html', txt = txt)
 
-@app.route('/THtoENG',methods=['POST'])    
+@app.route('/THtoENG',methods=['GET','POST'])    
 def pedo():
     The_dict = {
      'A':'ฤ',
