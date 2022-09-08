@@ -3,7 +3,7 @@ from flask import Flask,render_template,request
 
 app = Flask(__name__,template_folder='template')
 
-@app.route("/",methods=['POST','GET'])
+@app.route("/evo",methods=['POST','GET'])
 
 
 def caculate():
