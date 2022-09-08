@@ -19,7 +19,7 @@
     padding: 0 10px;
 }
 body {
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(to bottom right,#160A25,#17062c,#4f0909,#4a48bce1);
 }
@@ -176,4 +176,68 @@ header .cover .right button:hover i {
 *.right a:hover i {
     font-size: 25px;
     
+}
+
+@media screen and (max-width:640px){
+    * .input {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 60px;
+        border-radius: 15px;
+        background-color: rgb(230, 230, 230);
+        outline: none;
+        padding: 0 10px;
+    }
+    header .cover .right button {
+        background: none;
+        border: rgb(236, 226, 226) solid 3px;
+        border-radius: 5px;
+        outline: none;
+        margin: 0 5px;
+        width: fit-content;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+    }
+    header .cover .right button a {
+        font-size: 0.8rem;
+        display: flex;
+    }
+    header .cover .right button a i {
+        font-size: 0.8rem;
+    }
+    header .cover {
+        margin: 0 auto;
+        width: 95%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    * .btnzone {
+        width: 100%;
+    }
+    * .submit {
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        border: rgb(190, 189, 189) solid 1px;
+        background-color: rgb(36, 170, 219);
+        color: aliceblue;
+        font-size: 18px;
+        padding: 5px 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-weight: 800;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    * .family {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
 }
